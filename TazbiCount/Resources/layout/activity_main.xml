@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:text="0"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countView"
+        android:layout_marginBottom="20px"
+        android:layout_marginTop="50px" />
+    <Button
+        android:text="ADD"
+        android:layout_width="255.0dp"
+        android:layout_height="104.0dp"
+        android:id="@+id/addingBtn"
+        android:layout_marginTop="150px"
+        android:layout_marginBottom="20px"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <Button
+        android:text="SAVE"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebtn"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"
+        android:layout_margin="1px"
+        android:layout_marginBottom="15.6dp" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="350.0dp"
+        android:id="@+id/saveList" />
+
+    <Button
+        android:text="RESAT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/resatBtn"
+        android:textStyle="bold"
+        android:layout_marginTop="10px" />
+
+</LinearLayout>
